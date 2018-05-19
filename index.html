@@ -8,20 +8,24 @@
         color: red;
       }
       
-      div {
+      #exec-bio {
+        background-color: lightgrey;
+      }
+      
+      #chair-bio {
+        background-color: orange;
+      }
+      
+      .bio-box {
         border: 1px solid black;
       }
       
-      div a {
+      .bio-box a {
         color: green;
       }
       
-      li {
-        border: 1px solid black;
-      }
-      
-      li a {
-        color: orange;
+      .azure {
+        background-color: azure;
       }
     </style>
   </head>
@@ -39,16 +43,16 @@
       </li>
     </ul>
     <h2>I'm a h2</h2>
-    <div>
+    <div id="exec-bio" class="bio-box azure">
       <a href="http://example.com">I'm a link</a>
     </div>
-    <div>
+    <div id="chair-bio" class="bio-box azure">
       <a href="http://example.com">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box azure">
       <a href="http://example.com">I'm a link</a>
     </div>
-    <div>
+    <div class="bio-box azure">
       <a href="http://example.com">I'm a link</a>
     </div>
   </body>
